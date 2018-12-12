@@ -24,7 +24,8 @@ public class Prob12GivenNoIsPowerOfFive {
         while (pow < input) {
         	 pow = pow * 5; 
         	  
-             return (pow == input); 
+        	 if(pow == input)
+        		 return true; 
              
         }
            
