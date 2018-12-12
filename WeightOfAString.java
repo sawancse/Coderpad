@@ -6,10 +6,12 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-/*Remove the duplicate words from the given Sentence.
+/*"Find the weight of given String.
+(A-Z/a-z) we have 26 alphabetic, consider the position of a-z alphabets as 1-26. Based on that find the weight of the given String.
 Ex:
-Input: Good day day bye bye 
-output: Good day bye
+Given String: Apple
+Output: 1+16+16+12+5 = 50"
+
 */
 public class WeightOfAString {
 
